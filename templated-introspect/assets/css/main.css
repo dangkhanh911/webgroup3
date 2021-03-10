@@ -3098,25 +3098,35 @@
 	}
 
 	#header {
-		background: #1c1c1c;
+		background: #27abdf;
 		color: #d5d5d5;
 		cursor: default;
 		height: 5em;
 		left: 0;
 		line-height: 5em;
 		position: fixed;
-		text-align: right;
+		text-align: left;
 		top: 0;
 		width: 100%;
 		z-index: 10001;
 	}
 
 		#header .inner {
-			max-width: 65em;
 			width: calc(100% - 6em);
 			margin: 0 auto;
-			position: relative;
+			position: absolute;
 		}
+		
+		.logo:hover{
+				padding: 0px 0px;
+		}
+		.img_icon {
+				height: 5rem;
+				margin-top: 0.2rem;
+				background-color: rgb(2, 255, 255) !important;
+		}
+		
+
 
 			@media screen and (max-width: 480px) {
 
@@ -3127,22 +3137,7 @@
 
 			}
 
-		#header .logo {
-			font-family: 'Pacifico', cursive;
-			display: inline-block;
-			height: inherit;
-			left: 0;
-			line-height: inherit;
-			margin: 0;
-			padding: 0;
-			position: absolute;
-			top: 0;
-			color: #e5474b;
-			font-size: 1.75em;
-			text-transform: none;
-			font-weight: normal;
-			padding: 0;
-		}
+		
 
 			#header .logo:hover {
 				color: rgba(229, 71, 75, 0.75);
@@ -3221,10 +3216,10 @@
 			color: #fff;
 			display: block;
 			font-size: 16px;
-			height: 2.25em;
+			height: 2em;
 			left: 0.5em;
 			line-height: 2.25em;
-			position: absolute;
+			position: fixed;
 			text-align: center;
 			top: 0.5em;
 			width: 3.5em;
@@ -3365,11 +3360,11 @@
 		color: #f2a3a5;
 		padding: 13em 0 11em 0;
 		background-color: #0c0c0c;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/HLK\ Tech\ Club.jpg");
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: 15% left;
-		text-align: left;
+		background-position: center;
+		text-align: center;
 		position: relative;
 		z-index: 9999;
 	}
@@ -3582,7 +3577,7 @@
 	#one {
 		padding: 6em 0 4em 0;
 	}
-
+	    background-image: url("../../images/HLK\ Tech\ Club.jpg");
 		@media screen and (max-width: 980px) {
 
 			#one {
