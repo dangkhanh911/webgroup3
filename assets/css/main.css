@@ -3792,9 +3792,9 @@
 
 	#footer {
 		background-color: #27abdf;
-		color: #f2a3a5;
+		color: #ffffff;
 		padding: 4em 0 2em 0;
-		background: #e5474b;
+		background:  #27abdf;
 	}
 
 		#footer input, #footer select, #footer textarea {
@@ -3891,7 +3891,7 @@
 			#footer button.special,
 			#footer .button.special {
 				background-color: #ffffff;
-				color: #e5474b !important;
+				color: #ffffff !important;
 			}
 
 		#footer label {
